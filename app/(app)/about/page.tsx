@@ -16,8 +16,8 @@ export default function Home() {
 						<br />
 						<br />
 
-						My journey into Software development began after ever since I was little, it was my dad who inspired me to tinker with computers.
-						Seeing my dad work on his computer facinated me and I started to teach myself to do things on my computer along with my brothers.
+						My journey into Software development began ever since I was little, it was my dad who inspired and introduced me to tinker with computers.
+						Seeing my dad work on his computer fascinated me and from then on forward, I started to teach myself to do things on my computer along with my brothers.
 						Over the past 5 years, I&apos;ve honed my skills in UI/UX design, Front-end web development, and Machine learning, working with various clients to create optimized experiences.
 
 						<br />
@@ -25,7 +25,7 @@ export default function Home() {
 
 						What sets me apart is my ability to adapt quickly and do efficient work.
 						I believe in providing accessibility for all and doing so in the most efficient way possible.
-						Allowing everyone to enjoy these tailored experiencesa and providing great value.
+						Allowing everyone to enjoy these tailored experiences while providing great value.
 
 						<br />
 						<br />
