@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --card-translateY: -120px;
+	--card-left: 40%
 }
 
 @theme inline {
@@ -14,8 +19,27 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: oklch(21% 0.034 264.665);
     --foreground: #ededed;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --card-translateY: -160px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --card-translateY: -160px;
+		--card-left: 45%
+  }
+}
+
+@media (min-width: 1440) {
+  :root {
+    --card-translateY: -155px;
   }
 }
 

@@ -1,3 +1,21 @@
+# 10RD, billy's portfolio website
+
+## Concept
+
+- Jack of all trades, push button, spread cards, scroll to select each card,
+snap for each card, when card pushed, go to page for that card.
+- 52 Cards total
+- God
+- Music
+- Rubix
+- Keyboards
+- Watches
+- Games
+- Calisthenics
+- Tetris
+
+=============================================================================
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
