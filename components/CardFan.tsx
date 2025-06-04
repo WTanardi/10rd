@@ -60,7 +60,7 @@ const CardFan = () => {
 					const highlight = i === isCurrent;
 
 					return (
-						<Link href={card[i]?.url ?? ''} key={i} className={`font-[Monoton] text-center leading-3 text-sm md:text-lg md:leading-4 xl:text-2xl xl:leading-5 ${isRed ? 'text-red-500' : 'text-black'} ${highlight ? '' : 'pointer-events-none'}`}>
+						<Link href={card[i]?.url ?? ''} key={i} className={`font-mono text-center leading-3 text-sm md:text-lg md:leading-4 xl:text-2xl xl:leading-5 ${isRed ? 'text-red-500' : 'text-black'} ${highlight ? '' : 'pointer-events-none'}`}>
 							< div
 								className={`
 									absolute w-24 h-36 md:w-28 md:h-40 xl:w-32 xl:h-48

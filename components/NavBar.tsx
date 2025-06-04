@@ -3,7 +3,7 @@ import React from 'react'
 
 function NavBar() {
 	return (
-		<div className='font-[Monoton] text-2xl md:text-3xl lg:text-4xl xl:text-5xl flex flex-col gap-2'>
+		<div className='font-mono text-2xl md:text-3xl lg:text-4xl xl:text-5xl flex flex-col gap-2'>
 			<div className="group relative w-max self-end">
 				<span>
 					<Link href={'/portfolio'}>Portfolio</Link>

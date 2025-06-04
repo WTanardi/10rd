@@ -22,7 +22,7 @@ function Footer() {
 					</Link>
 				</li>
 			</ul>
-			<div className='font-[Montserrat] text-center cursor-default'>
+			<div className={`text-center cursor-default font-sans`}>
 				&copy; 2025 William Tanardi
 			</div>
 		</div>
