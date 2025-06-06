@@ -65,7 +65,7 @@ const CardFan = () => {
 								className={`
 									absolute w-24 h-36 md:w-28 md:h-40 xl:w-32 xl:h-48
 									bg-white rounded-md border-0.5 shadow
-									transition-transform duration-300 ease-out
+									transition-transform duration-700 ease-out
 									${highlight ? 'z-50 scale-150 -translate-y-6 shadow-xl border-1 border-gray-200' : 'z-10'}
 								`}
 								style={{

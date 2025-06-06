@@ -6,17 +6,17 @@ function Footer() {
 	return (
 		<div className='flex flex-col gap-2'>
 			<ul className='flex justify-center gap-1'>
-				<li className='transition-all hover:border-white border-2 rounded-full p-2 border-transparent duration-500'>
+				<li className='transition-all hover:border-white border-2 rounded-full p-2 border-transparent duration-700'>
 					<Link href={'https://www.instagram.com/williamtanardi/'} >
 						<Instagram />
 					</Link>
 				</li>
-				<li className='transition-all hover:border-white border-2 rounded-full p-2 border-transparent duration-500'>
+				<li className='transition-all hover:border-white border-2 rounded-full p-2 border-transparent duration-700'>
 					<Link href={'https://github.com/WTanardi'}>
 						<Github />
 					</Link>
 				</li>
-				<li className='transition-all hover:border-white border-2 rounded-full p-2 border-transparent duration-500'>
+				<li className='transition-all hover:border-white border-2 rounded-full p-2 border-transparent duration-700'>
 					<Link href={'https://www.linkedin.com/in/williamtanardi/'}>
 						<Linkedin />
 					</Link>

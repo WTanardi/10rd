@@ -29,7 +29,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="en" className="dark">
 			<body className={`${montserrat.variable} ${monoton.variable} antialiased`} >
 				<div className="container relative bg-gray-900 mx-auto">
 					<div className="px-8 pt-8 pb-4 z-10 top-0 left-0 sticky flex justify-between bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-0">

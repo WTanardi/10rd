@@ -8,13 +8,13 @@ function NavBar() {
 				<span>
 					<Link href={'/portfolio'}>Portfolio</Link>
 				</span>
-				<span className="absolute -bottom-1 right-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
+				<span className="absolute -bottom-1 right-0 w-0 transition-all duration-700 h-0.5 bg-white group-hover:w-full"></span>
 			</div>
 			<div className="group relative w-max self-end">
 				<span>
 					<Link href={'/about'}>About</Link>
 				</span>
-				<span className="absolute -bottom-1 right-0 w-0 transition-all h-0.5 bg-white group-hover:w-full"></span>
+				<span className="absolute -bottom-1 right-0 w-0 transition-all duration-700 h-0.5 bg-white group-hover:w-full"></span>
 			</div>
 		</div>
 	)
