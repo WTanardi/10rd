@@ -3,24 +3,20 @@ import {
 	Card,
 	CardAction,
 	CardContent,
-	CardDescription,
 	CardFooter,
 	CardHeader,
-	CardTitle,
 } from "@/components/ui/card"
 
 import {
 	Carousel,
 	CarouselContent,
 	CarouselItem,
-	CarouselNext,
-	CarouselPrevious,
 } from "@/components/ui/carousel"
 import Link from "next/link";
 
 interface Project {
 	name: string,
-	url?: string,
+	url: string,
 	image: string,
 	description: string,
 	stack: string[],
