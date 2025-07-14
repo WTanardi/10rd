@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const CardFan = () => {
 	const ranks: string[] = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
-	const suits: string[] = ['/spade_suit.png', '/diamond_suit.png', '/club_suit.png', '/heart_suit.png'];
+	const suits: string[] = ['/spade_suit.webp', '/diamond_suit.webp', '/club_suit.webp', '/heart_suit.webp'];
 
 	const deck = suits.flatMap((suit) =>
 		ranks.map((rank) => ({
@@ -25,12 +25,12 @@ const CardFan = () => {
 		{
 			name: "God",
 			url: "/god",
-			icon: "/cross.jpg"
+			icon: "/cross.webp"
 		},
 		{
 			name: "Music",
 			url: "/music",
-			icon: "/music.png"
+			icon: "/music.webp"
 		}
 	]
 
@@ -56,7 +56,7 @@ const CardFan = () => {
 			<div className="sticky top-1/2 left-1/2 translate-y-[-50%]">
 				{deck.map((e, i) => {
 					const angle = (i / 52) * 270 + rotation;
-					const isRed = e.suit === '/heart_suit.png' || e.suit === '/diamond_suit.png';
+					const isRed = e.suit === '/heart_suit.webp' || e.suit === '/diamond_suit.webp';
 					const highlight = i === isCurrent;
 
 					return (
