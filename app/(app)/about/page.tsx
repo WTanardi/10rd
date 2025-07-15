@@ -18,7 +18,7 @@ export default function Home() {
 		<div>
 			<div className="container relative bg-gray-900 mx-auto font-sans max-w-sm md:max-w-xl lg:max-w-3xl">
 				<section className="p-8 flex flex-col justify-center items-center gap-4">
-					<Image src={"/williamtanardi.jpg"} height={250} width={250} alt="a photo of william tanardi" />
+					<Image src={"/williamtanardi.webp"} height={250} width={250} alt="a photo of william tanardi" />
 					<p>Jack of all trades</p>
 				</section>
 				<section className="p-8 flex flex-col gap-4">
