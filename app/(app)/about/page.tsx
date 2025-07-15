@@ -43,7 +43,7 @@ export default function Home() {
 							What
 						</h2>
 						<p>
-							This is a personal website I've built with a deck of cards as the concept.
+							This is a personal website I&apos;ve built with a deck of cards as the concept.
 						</p>
 					</div>
 					<div className="text-right">
